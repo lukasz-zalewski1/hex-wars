@@ -5,7 +5,7 @@ This game is inspired by an old flash game called [Dicewars](https://www.gamedes
 
 <br>
 
-The goal of the game is to conquer alaa enemy fields. You play as **Red** and fight other colorful enemies. 
+The goal of the game is to conquer all enemy fields. You play as **Red** and fight other colorful enemies. 
 
 The game is turn based. Each turn you can make as many moves as you want. In each move you can select your attacking field and battle against adjacent enemy fields. Each field has a number, which represents power of the forces on it - *Dice*. Each battle the *Dice* are rolled. If you managed to get better a result than the enemy, you take his field and move all but one of your forces there .If you didn't, you lose all but 1 of your forces on your attacking field. After you make all of your moves, then all of your enemies will take their turn. At the end of every turn forces of all players grow depending on the number of their adjacent fields. 
 
