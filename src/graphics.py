@@ -58,7 +58,7 @@ class Graphics:
                             'arial',
                             self.font_bar_size,
                             bold=1)
-        self.font_sliders = pygame.font.SysFont('arial', 20, bold=1)
+        self.font_sliders = pygame.font.SysFont('arial', 18, bold=1)
 
     def __init_right_bar(self):
         '''
@@ -205,7 +205,7 @@ class Graphics:
         self.slider_hex_number_rect[1] += self.right_bar_units[1] * 2
         self.slider_hex_number = controls.Slider(
             self.slider_hex_number_rect,
-            [0, -self.right_bar_units[1]], 'percentage of the map covered in hexes',
+            [0, -self.right_bar_units[1]], '% of the map covered in hexes',
             self.font_sliders, 10, 100,
             25, 1, (0, 0, 0), (255, 150, 0))
 
